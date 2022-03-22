@@ -1,0 +1,64 @@
+// ----- HOME- SECTIONS
+// -- lo más vendido --
+
+// sección lo más vendido
+.section__vendido {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+// info del producto
+.item-name {
+    margin-bottom: $unit;
+}
+        // nombre y precio
+.product-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+}
+
+// nombre & precio & añadir a la cesta
+.item-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
+.cake-img {
+    width: 330px;
+    height: 330px;
+}
+.cake-img:hover {
+    background-color: $color-purple;
+}
+
+
+// section-otras
+.item-otras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.cake-img-otras {
+    width: 500px;
+}
+
+.cake-img-otras:hover {
+    background-color: $color-purple;
+}
+.item-otras-info {
+    width: 100%;
+    padding-top: $unit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

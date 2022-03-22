@@ -1,0 +1,25 @@
+// ----- $FONTS-VARIABLES
+// Mattone & DM sans regular 400, medium 500, bold 700
+
+
+// @font-face {
+//   font-family: 'Mattone', sans-serif;
+//   src: url(mattone-font\web\Mattone-150.woff);
+//   }
+
+// @font-face {
+//     font-family: "Mattone";
+//     src: url("mattone-font\web\Mattone-150.woff2") format("woff2"),
+//          url("mattone-font\web\Mattone-150.woff") format("woff");
+//   }
+
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+// --- font-family
+$main-font: 'B612', sans-serif;
+$dm-sans: 'DM Sans', sans-serif;
+
+// --- font-size
+$regular: 400;
+$medium: 500;
+$bold: 700;

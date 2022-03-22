@@ -1,0 +1,43 @@
+// ----- BUTTONS AND CTA
+
+// --- CTA-COMPRAR
+
+.cta-comprar {
+    background-color: $color-green;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 40px;
+    height: 55px;
+    padding: 30px;
+    margin: 0;
+    // padding-top: 10px;
+}
+
+.cta-comprar:hover {
+    background-color: $color-black;
+    color: $color-white;
+}
+
+
+.add-cart-button {
+    background-color: $color-black;
+    border: none;
+    color: $color-white;
+    border-radius: 50%;
+    height: 36px;
+    width: 36px;
+    font-weight: bold;
+    font-size: 40px;
+
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
+
+.add-cart-button:hover {
+    background-color: $color-green;
+    color: $color-black;
+    cursor: pointer;
+}

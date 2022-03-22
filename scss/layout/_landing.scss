@@ -1,0 +1,23 @@
+.landing {
+    border-top: none;
+    display: flex;
+    background-color: $color-main;
+
+    .video-landing__container {
+        background: url(http://programandoointentandolo.com/ejemplos/imagenes/cubo/img1.png) no-repeat;
+        background-size: cover;
+        border-right: 1px solid $color-black;
+        width: 50%;
+        height: 800px;
+    }
+
+    .text-landing__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        margin-top: 10%;
+        text-align: center;
+
+    }
+}

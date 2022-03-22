@@ -1,0 +1,19 @@
+// ---- SPACING
+
+$small-unit:5px;
+$unit: 10px;
+$space: $unit * 2;
+$space-max: $unit * 5;
+$space--medium: $space * 1.5;
+$padding: $unit;
+
+
+$pagemaxwidth-mobile: 375px;
+$pagemaxwidth-desk: 1440px;
+
+
+//  -- margins
+
+.marginmed {
+    margin: 20px;
+}

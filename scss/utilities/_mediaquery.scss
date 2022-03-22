@@ -1,0 +1,75 @@
+// --------****MEMIUM****-------
+@media (max-width: 1300px) {
+
+    // home- grid
+        .item__list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    // home- otras
+        .item-otras {
+            flex-direction: column;
+        }
+        .cake-img-otras {
+            width: 400px;
+        }
+
+    // -- buttons --
+    .cta-comprar {
+        height: 24px;
+        padding: 22px;
+    }
+
+}
+
+// ------------------------------
+// --------****MOBILE****--------
+// ------------------------------
+
+@media (max-width: 900px) {
+// --- clases ---
+.paddings {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+// --- GRIDS ---
+    .item__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+// -- typography --
+    h1 {
+        font-size: 36px;
+    }
+    
+    .p-large {
+        font-size: 22px;
+    }
+    
+// -- HOME PAGE
+    .menu__mobile {
+        display:inline;
+    }
+    .header__links {
+    
+        .nav-desktop {
+            display: none;
+        }
+    } 
+
+    .landing {
+        flex-direction: column;
+
+        .video-landing__container {
+            width: 100%;
+            height: 300px;
+        }
+
+        .text-landing__container {
+            justify-content: center;
+            width: 100%;
+            height: 350px;
+            margin-top: 10%;
+        }
+    }
+
+}

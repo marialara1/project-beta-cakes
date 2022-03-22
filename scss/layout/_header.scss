@@ -1,0 +1,30 @@
+// -----HEADER
+// logo, nav & cart
+
+.menu__mobile {
+    display: none;
+}
+
+.header__links {
+    width: 100%;
+    padding: $space;
+    border: 1px solid $color-black;
+    color: $color-black;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .nav-desktop {
+        list-style: none;
+        display: flex;
+        gap: $space-max;
+        margin-left: auto;
+        
+    }
+}
+
+.cart {
+    margin-left: $space-max;
+}
