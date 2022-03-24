@@ -1,4 +1,4 @@
-<h2> LO MÁS VENDIDO</h2>
+<h2 class="section__title"> LO MÁS VENDIDO</h2>
 
 <div class="item__list">
 

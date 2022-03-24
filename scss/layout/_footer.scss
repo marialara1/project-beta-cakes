@@ -1,0 +1,35 @@
+.footer {
+    padding: 24px;
+    background-color: $color-black;
+}
+
+.footer-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    // margin: 48px;
+}
+
+.vake-logo {
+    fill: $color-white;
+}
+
+.container__footer-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+.footer__links:hover {
+    color: $color-green;
+}
+
+.footer-cc {
+    background-color: $color-main;
+    width: 100%;
+    padding: 12px;
+
+}

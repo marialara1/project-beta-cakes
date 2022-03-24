@@ -3,9 +3,10 @@
 // --- CTA-COMPRAR
 
 .cta-comprar {
-    background-color: $color-green;
+    background-color: $color-cta;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: bold;
     border-radius: 40px;
     height: 55px;
@@ -37,7 +38,12 @@
 }
 
 .add-cart-button:hover {
-    background-color: $color-green;
+    background-color: $color-cta;
     color: $color-black;
     cursor: pointer;
+}
+
+
+.cta-purple {
+    background-color: $color-main;
 }

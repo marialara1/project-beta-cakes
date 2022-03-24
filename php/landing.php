@@ -2,7 +2,7 @@
 
 <!-- video -->
 <div class="video-landing__container">
-    <!-- <img class="vake-video" src="resources\images\landing-images\landing-image1.png" alt="vake video"> -->
+    <!-- <img class="vake-video" src="" alt="vake video"> -->
 </div>
 <!-- text -->
 <div class="text-landing__container">

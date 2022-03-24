@@ -12,6 +12,11 @@
         .cake-img-otras {
             width: 400px;
         }
+    // home- vegan
+    .section__vegan {
+        grid-gap: 100px;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
     // -- buttons --
     .cta-comprar {
@@ -35,6 +40,10 @@
     .item__list {
         grid-template-columns: repeat(1, 1fr);
     }
+    .section__vegan {
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
 
 // -- typography --
     h1 {
@@ -44,6 +53,17 @@
     .p-large {
         font-size: 22px;
     }
+
+    .section__title {
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    
+    .review__text {
+        font-size: 12px;
+      }
+
     
 // -- HOME PAGE
     .menu__mobile {
@@ -70,6 +90,22 @@
             height: 350px;
             margin-top: 10%;
         }
+    }
+    
+    // footer
+    .container__footer-links {
+        flex-direction: column;
+        gap: 16px;
+    }
+// newsletter
+    .espacio-enter {
+        display: none;
+    }
+
+    .newsletter__p {
+        margin-top: $space!important;
+        width: 300px;
+        margin: auto;
     }
 
 }

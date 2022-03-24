@@ -1,43 +1,97 @@
-// --- shipping loop
+// ----- LOOP STYLES
 
-.loop-listship {
-    display: flex;
-    flex-direction: row;
-    gap: 90px;
-    animation: animate 40s linear infinite;
-    animation-delay: -40s;
-}
 
-// ----- LOOP HEADER
-.container__loop-list {
+#loop{
+    position:relative;
+    width:100%;
+    // height:45px;
+    display:flex;
+    align-items:flex-end;
+    overflow:hidden;
+  }
+  
+  #loop .scrollingLoop{
+    width:100%;
+    height:45px;
+    display:flex;
+    align-items:center;
+    // background-color:$color-black;
+  }
+  
+  #loop .scrollingLoop div{
+    // color:$color-white;
+    font-size: 16px;
+    white-space:nowrap;
+    animation: animSkills 160s linear infinite;
+    animation-delay: -160s;
+  }
+  
+  #loop .scrollingLoop div:nth-child(2){
+    animation: animSkills2 160s linear infinite;
+    animation-delay: -80s;
+  }
+  
+
+//   animation
+  @keyframes animSkills{
+    0%{
+      transform: translateX(100%);
+    }
+    100%{
+      transform:translateX(-100%);
+    }
+  }
+  
+  @keyframes animSkills2{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform:translateX(-200%);
+    }
+  }
+  
+
+//   -different colors
+
+  .loophead {
     background-color: $color-black;
     color: $color-white;
-    height: 45px;
-    width: auto;
-    overflow: hidden;
-}
+  }
+  .loopship {
+      background-color: $color-white;
+      color: $color-black;
+  }
 
-.loop-list {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    animation: animate 40s linear infinite;
-    animation-delay: -40s;
 
-        li {
-            display: inline;
-}
+  // ----------------
 
-    @keyframes animate {
-        0% {
-            transform: translateX(100%);
-        }
-        100% {
-            transform: translateX(-100%);
-        }
-    }
-}
+  // ----- INSTAGRAM LOOP
+  #loopINST {
+    position:relative;
+    width:100%;
+    display:flex;
+    align-items:flex-end;
+    overflow:hidden;
+  }
+  
+  #loopINST .scrollingLoopINST{
+    width:100%;
+    height:300px;
+    display:flex;
+    align-items:center;
+    // background-color:$color-black;
+  }
+  
+  #loopINST .scrollingLoopINST div{
+    // color:$color-white;
+    white-space:nowrap;
+    animation: animSkills 160s linear infinite;
+    animation-delay: -160s;
+  }
+  
+  #loopINST .scrollingLoopINST div:nth-child(2){
+    animation: animSkills2 160s linear infinite;
+    animation-delay: -80s;
+  }
+

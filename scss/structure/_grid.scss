@@ -1,7 +1,16 @@
+// home item list
 .item__list {
     display: grid;
     grid-gap: 90px;
     padding: $space;
     grid-template-columns: repeat(3, 1fr);
     padding-bottom: 100px;
+}
+
+// home section vegan
+.section__vegan {
+    display: grid;
+    grid-gap: 100px;
+    padding: $space;
+    grid-template-columns: repeat(4, 1fr);
 }
