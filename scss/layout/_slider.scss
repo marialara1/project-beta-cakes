@@ -38,14 +38,26 @@
 .review__container {
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
     padding: 32px;
   }
 
 .review__user {
   display: flex;
     flex-direction: row;
+
+
 }
 
 .review__text {
   text-align: left;
+}
+
+.divgradient {
+  background: linear-gradient(to left, rgba(255,255,255,0), $color-white);
+  width: 200px;
+  height: 100%;
+  margin-right: 0px;
+  position: absolute;
+  z-index: 2;
 }

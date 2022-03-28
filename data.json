@@ -2,118 +2,118 @@
     {
         "name": "Tarta de Cumpleaños",
         "price": 30,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta de Ositos",
         "price": 45,
-        "Gluten": true,
-        "sugar": true
+        "gluten": true,
+        "sugar": false
     },
     {
         "name": "Tarta Azul",
         "price": 35,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Cherry",
         "price": 40,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta de Chocolate",
         "price": 35,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Cute",
         "price": 50,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Flor",
         "price": 45,
-        "Gluten": true,
+        "gluten": true,
         "sugar": false
     },
     {
         "name": "Tarta Corazón",
         "price": 35,
-        "Gluten": false
+        "gluten": false
     },
     {
         "name": "Tarta Kitty",
         "price": 40,
-        "Gluten": false
+        "gluten": false
     },
     {
         "name": "Tarta de Limón",
         "price": 35,
-        "Gluten": true,
-        "sugar": true
+        "gluten": false,
+        "sugar": false
     },
     {
         "name": "Tarta Loving",
         "price": 50,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Nice",
         "price": 40,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Otaku",
         "price": 35,
-        "Gluten": false
+        "gluten": false
     },
     {
         "name": "Tarta Picnic",
         "price": 40,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Rosa",
         "price": 40,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Princesa",
         "price": 40,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Red Velvet",
         "price": 40,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Soft",
         "price": 35,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     },
     {
         "name": "Tarta Ardilla",
         "price": 40,
-        "Gluten": true,
+        "gluten": true,
         "sugar": false
     },
     {
         "name": "Tarta Azúcar",
         "price": 40,
-        "Gluten": true,
+        "gluten": true,
         "sugar": true
     }
 ]

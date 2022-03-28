@@ -21,6 +21,11 @@ body {
 
 
 // CLASES
+
+button {
+    border: none;
+}
+
 .cursor {
     cursor: pointer;
 }
@@ -33,6 +38,10 @@ body {
 .paddings {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.marginauto {
+    margin:auto
 }
 
 .marginpadding0 {
@@ -48,5 +57,9 @@ body {
 .prueba {
     width: 100%;
     overflow: hidden;
+}
+
+.imgsmall {
+width: 70px;
 }
 

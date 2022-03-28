@@ -23,6 +23,21 @@
         height: 24px;
         padding: 22px;
     }
+// newsletter enter
+    .espacio-enter {
+        display: none;
+    }
+
+// --info-pages
+    .info-main {
+        width: 80%;
+        padding-bottom: 100px;
+    }
+        
+        // review
+        .review__text {
+            font-size: 14px;
+          }
 
 }
 
@@ -59,7 +74,7 @@
         text-align: center;
     }
 
-    
+    // review
     .review__text {
         font-size: 12px;
       }
@@ -98,14 +113,12 @@
         gap: 16px;
     }
 // newsletter
-    .espacio-enter {
-        display: none;
-    }
 
     .newsletter__p {
         margin-top: $space!important;
         width: 300px;
         margin: auto;
     }
+
 
 }

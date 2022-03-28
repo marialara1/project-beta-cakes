@@ -8,11 +8,23 @@
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
+    <!-- loop -->
+    <?php
+        include('../loop-header.php');
+    ?>
+        <!-- header (nav)-->
+        <header> 
+            <?php
+                include('../header.php');
+            ?>
+        </header>
     <main>
+        
 
     </main>
     <footer>
     </footer>
 </body>
-<script src="./index.js"></script>
+<!-- filter -->
+<script src="../../index.js"></script>
 </html>

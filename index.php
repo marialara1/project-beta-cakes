@@ -8,15 +8,13 @@
         <link rel="icon" type="image/x-icon" href="resources\images\_product-images\otaku-cake.png">
         <link rel="stylesheet" href="css\style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://api.fontshare.com/css?f[]=clash-grotesk@400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://api.fontshare.com/css?f[]=clash-grotesk@400&display=swap" rel="stylesheet">
 
-<!-- swipper -->
-<link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+        <!-- swipper -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     </head>
 
     <body>
