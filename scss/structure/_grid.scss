@@ -14,3 +14,15 @@
     padding: $space;
     grid-template-columns: repeat(4, 1fr);
 }
+
+
+// all products grid
+
+.main-grid {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    padding: 100px;
+    grid-template-columns: repeat(4, 1fr);
+}

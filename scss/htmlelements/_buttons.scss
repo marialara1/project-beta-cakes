@@ -30,10 +30,10 @@
     width: 36px;
     font-weight: bold;
     font-size: 40px;
-
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-left: auto;
     padding: auto;
 }
 
@@ -46,4 +46,27 @@
 
 .cta-purple {
     background-color: $color-main;
+}
+
+// filtros
+.GLUTEN, .AZUCAR {
+    background-color: $color-main;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: $unit;
+    border-radius: 40px;
+    height: 44px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.small {
+    height: 22px;
+    width: 22px;
+    font-size: 24px;
 }

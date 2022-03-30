@@ -18,12 +18,37 @@
                 include('../header.php');
             ?>
         </header>
-    <main>
+
+        <h2 class="section__title">Todos los productos</h2>
+        <footer class="filter__container">
+            <p class="bold p-large">Filtros:</p>
+    </footer>
+    <main class="main-grid">
         
 
     </main>
-    <footer>
-    </footer>
+
+                    <!-- LOOP ENVIOS -->
+                    <?php
+                    include('../loop-shipping.php');
+                ?>
+
+            <p class="newsletter__p paddings">¡Puedes personalizar el texto de la tarta que quieras!</p>
+
+                        <!-- NEWSLETTER -->
+                        <section class="section__homes newsletter_allcakes">
+            <?php
+                include('../newsletter.php');
+            ?>
+                        </section>
+
+
+
+
+
+    <?php
+        include('../footer.php');
+    ?>
 </body>
 <!-- filter -->
 <script src="../../index.js"></script>

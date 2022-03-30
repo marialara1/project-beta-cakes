@@ -7,7 +7,7 @@
     <input class="newsletter__input bordersolid" type="email" id="email" placeholder="Introduce tu email<3">
 </label>
 
-<button class="newsletter__button cta-comprar p-large marginmed cursor" id="send" href=""> Enviar! </button>
+<button class="newsletter__button cta-comprar p-large marginmed cursor cta-purple" id="send" href=""> Enviar! </button>
 
 <script>
 const container = document.querySelector(".newsletter__button");

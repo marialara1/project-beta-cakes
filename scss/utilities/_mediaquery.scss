@@ -23,15 +23,14 @@
         height: 24px;
         padding: 22px;
     }
-// newsletter enter
+    // newsletter enter
     .espacio-enter {
         display: none;
     }
 
-// --info-pages
+    // --info-pages
     .info-main {
-        width: 80%;
-        padding-bottom: 100px;
+        width: 50%;
     }
         
         // review
@@ -39,6 +38,17 @@
             font-size: 14px;
           }
 
+
+    //  products grid
+    .main-grid {
+        width: 80%;
+        margin: auto;
+        display: grid;
+        grid-gap: 40px;
+        padding: $space;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
 }
 
 // ------------------------------
@@ -46,79 +56,143 @@
 // ------------------------------
 
 @media (max-width: 900px) {
-// --- clases ---
-.paddings {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-// --- GRIDS ---
-    .item__list {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .section__vegan {
-        gap: 20px;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-// -- typography --
-    h1 {
-        font-size: 36px;
-    }
-    
-    .p-large {
-        font-size: 22px;
-    }
-
-    .section__title {
+    // --- clases ---
+    .paddings {
+        padding-top: 50px;
         padding-bottom: 50px;
-        text-align: center;
     }
-
-    // review
-    .review__text {
-        font-size: 12px;
-      }
-
-    
-// -- HOME PAGE
-    .menu__mobile {
-        display:inline;
-    }
-    .header__links {
-    
-        .nav-desktop {
-            display: none;
+    // --- GRIDS ---
+        .item__list {
+            grid-template-columns: repeat(1, 1fr);
         }
-    } 
-
-    .landing {
-        flex-direction: column;
-
-        .video-landing__container {
-            width: 100%;
-            height: 300px;
+        .section__vegan {
+            gap: 20px;
+            grid-template-columns: repeat(1, 1fr);
         }
 
-        .text-landing__container {
+    // -- typography --
+        h1 {
+            font-size: 36px;
+        }
+        
+        .p-large {
+            font-size: 22px;
+        }
+
+        .section__title {
+            padding-bottom: 50px;
+            text-align: center;
+        }
+
+        // review
+        .review__text {
+            font-size: 12px;
+        }
+
+        
+    // -- HOME PAGE
+    // nav
+        .menu__mobile {
+            display:inline;
+        }
+        .header__links {
+        
+            .nav-desktop {
+                display: none;
+            }
+        } 
+
+        .header__links {
             justify-content: center;
-            width: 100%;
-            height: 350px;
-            margin-top: 10%;
+            align-items: center;
+            gap: 30%;
         }
-    }
-    
-    // footer
-    .container__footer-links {
-        flex-direction: column;
-        gap: 16px;
-    }
-// newsletter
 
-    .newsletter__p {
-        margin-top: $space!important;
-        width: 300px;
-        margin: auto;
-    }
+        .landing {
+            flex-direction: column;
 
+            .video-landing__container {
+                width: 100%;
+                height: 300px;
+            }
+
+            .text-landing__container {
+                justify-content: center;
+                width: 100%;
+                height: 350px;
+                margin-top: 10%;
+            }
+        }
+        
+            // footer
+            .container__footer-links {
+                flex-direction: column;
+                gap: 16px;
+            }
+        // newsletter
+
+            .newsletter__p {
+                margin-top: $space!important;
+                width: 300px;
+                margin: auto;
+            }
+
+            // swipper
+            .swiper {
+                width: 100%;
+                height: 400px;
+            }
+
+        //  products grid
+        .main-grid {
+            width: 100%;
+            grid-gap: 10px;
+            padding: 0;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .GLUTEN, .AZUCAR {
+            height: 44px;
+            padding: $space;
+            font-size: 14px;
+        }
+
+        .filter__container {
+            gap: 10px;
+        }
+
+            // --info-pages
+        .info-main {
+            width: 80%;
+        }
+
+
+
+        // CART
+
+        .cart__container {
+            width: 85%;
+            height: 700px;
+            padding: $unit;
+        }
+
+        .cart__envio {
+            margin-top: 26px;
+        }
+        .cart__iva {
+            margin-bottom: 46px;
+        }
+        
+        .cart__footer {
+            margin-top: 50px;
+        }
+
+        
+
+        // FAQ
+
+        .container {
+            width: 90vw;
+        }
 
 }

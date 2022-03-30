@@ -49,6 +49,13 @@
             include('../newsletter.php');
         ?>
 
+                        <!-- INSTAGRAM SLIDER -->
+                        <section class="section__home paddings">
+                    <?php
+                        include('php/section__instagram.php');
+                    ?>
+                </section>
+
     </main>
 
     <footer>

@@ -1,10 +1,11 @@
-const tagsTotales = ['gluten', 'sugar'];
+const tagsTotales = ['GLUTEN', 'AZUCAR'];
 tagsTotales.forEach(function(tag) {
-    document.querySelector('footer').innerHTML += `<button class="filter ${tag}">${tag}</button>`;
+    document.querySelector('footer').innerHTML += `<button class="filter ${tag}">SIN ${tag}</button>`;
 })
 
+
 fetch('../../data.json')
-    .then(function(response) { return response.json()})
+    .then(function(response) {return response.json()})
     .then(function(tartas) {
         console.log(tartas);
         
@@ -24,8 +25,8 @@ fetch('../../data.json')
 
         function paintProducts() {
             document.querySelector('main').innerHTML = '';
-            const isSelectedGluten = document.querySelector('.gluten').classList.contains('active');
-            const isSelectedSugar = document.querySelector('.sugar').classList.contains('active');
+            const isSelectedGluten = document.querySelector('.GLUTEN').classList.contains('active');
+            const isSelectedSugar = document.querySelector('.AZUCAR').classList.contains('active');
             
             const botonOrdenarActivo = true;
             const orderedTartas = tartas.sort(function(tarta1, tarta2) { 
@@ -37,11 +38,25 @@ fetch('../../data.json')
             })
 
             orderedTartas.forEach(function(tarta) {
-                const shouldPaintSugar = isSelectedSugar === false || isSelectedSugar === true && tarta.sugar;
-                const shouldPaintGluten = isSelectedGluten === false || isSelectedGluten === true && tarta.gluten;
+                const shouldPaintSugar = isSelectedSugar === false || isSelectedSugar === true && tarta.AZUCAR;
+                const shouldPaintGluten = isSelectedGluten === false || isSelectedGluten === true && tarta.GLUTEN;
 
                 if (shouldPaintSugar && shouldPaintGluten) {
-                    document.querySelector('main').innerHTML += `<h1>${tarta.name}</h1>`;
+                    document.querySelector('main').innerHTML +=
+                    `
+                    <div class="items__grid">
+                        <div class="item__container">
+                            <img src="${tarta.img}" alt="" class= "tartapic">
+                            <div class="item__sub">
+                                <div class="product-subtext">
+                                    <p class="item-name"> ${tarta.name}</p>
+                                    <p class="item-price bold">${tarta.price}</p>
+                                </div>
+                                <button class= "add-cart-button small">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    `;
                 }
             })
 
