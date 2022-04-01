@@ -9,8 +9,12 @@
         .item-otras {
             flex-direction: column;
         }
+
+        .item-otras-info {
+            flex-direction: column;
+        }
         .cake-img-otras {
-            width: 400px;
+            width: 300px;
         }
     // home- vegan
     .section__vegan {
@@ -63,6 +67,13 @@
     .product__title {
     width: 324px;
     }
+
+            // FAQ
+
+            .container {
+                width: 60vw;
+            }
+    
 
 }
 
@@ -138,6 +149,10 @@
                 margin-top: 10%;
             }
         }
+
+        .landing-btn {
+            margin-bottom: 80px;
+        }
         
             // footer
             .container__footer-links {
@@ -150,6 +165,10 @@
                 margin-top: $space!important;
                 width: 300px;
                 margin: auto;
+            }
+
+            .newsletter__input {
+                width: 250px;
             }
 
             // swipper

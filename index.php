@@ -97,3 +97,9 @@
         </footer>
     </body>
 </html>
+
+
+
+<!-- notas:
+flex: 1 se va el elemento al final
+ -->

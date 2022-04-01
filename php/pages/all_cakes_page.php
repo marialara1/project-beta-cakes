@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todas las tartas</title>
     <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" type="image/x-icon" href=".\resources\images\_product-images\otaku-cake.png">
 </head>
 <body>
     <!-- loop -->

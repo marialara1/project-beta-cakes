@@ -70,6 +70,10 @@ button {
   width: 70px;
 }
 
+:root {
+  --swiper-theme-color: #000000!important;
+}
+
 .item__list {
   display: -ms-grid;
   display: grid;
@@ -1027,7 +1031,7 @@ header {
   background-color: #D2BEFF;
 }
 .landing .video-landing__container {
-  background: url(../resources/images/landing-images/landingimg0.gif) no-repeat;
+  background: url(../resources/images/landing-images/landingimg2.png) no-repeat;
   background-size: cover;
   border-right: 1px solid #232323;
   width: 50%;
@@ -1271,8 +1275,15 @@ header {
             flex-direction: column;
   }
 
+  .item-otras-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
   .cake-img-otras {
-    width: 400px;
+    width: 300px;
   }
 
   .section__vegan {
@@ -1324,6 +1335,10 @@ header {
 
   .product__title {
     width: 324px;
+  }
+
+  .container {
+    width: 60vw;
   }
 }
 @media (max-width: 900px) {
@@ -1397,6 +1412,10 @@ header {
     margin-top: 10%;
   }
 
+  .landing-btn {
+    margin-bottom: 80px;
+  }
+
   .container__footer-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1409,6 +1428,10 @@ header {
     margin-top: 20px !important;
     width: 300px;
     margin: auto;
+  }
+
+  .newsletter__input {
+    width: 250px;
   }
 
   .swiper {
