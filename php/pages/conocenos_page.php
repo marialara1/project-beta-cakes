@@ -52,7 +52,7 @@
                         <!-- INSTAGRAM SLIDER -->
                         <section class="section__home paddings">
                     <?php
-                        include('php/section__instagram.php');
+                        include('../section__instagram.php');
                     ?>
                 </section>
 

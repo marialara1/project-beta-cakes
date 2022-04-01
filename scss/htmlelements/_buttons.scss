@@ -12,6 +12,8 @@
     height: 55px;
     padding: 30px;
     margin: 0;
+    width: min-content;
+    white-space: nowrap;
     // padding-top: 10px;
 }
 
@@ -70,3 +72,16 @@
     width: 22px;
     font-size: 24px;
 }
+
+
+.cta-black {
+    background-color: $color-black;
+    color: $color-white;
+    font-weight: $medium;
+}
+
+.cta-black:hover {
+    background-color:  $color-purple;
+    color:$color-black;
+}
+

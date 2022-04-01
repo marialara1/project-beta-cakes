@@ -45,10 +45,13 @@
 .review__user {
   display: flex;
     flex-direction: row;
-
-
 }
-
+.review__stars {
+  width: 100px;
+}
+.review__span {
+  white-space: nowrap;
+}
 .review__text {
   text-align: left;
 }

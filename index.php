@@ -48,9 +48,11 @@
                 </section>
 
                 <!-- LOOP ENVIOS -->
+                <div class="paddings">
                 <?php
                     include('php/loop-shipping.php');
                 ?>
+                </div>
 
                 <!-- TARTAS PARA -->
             <section class="section__home paddings">

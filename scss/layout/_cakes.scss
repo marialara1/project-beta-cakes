@@ -8,6 +8,11 @@ padding-bottom: $space-max;
 //     height: 165px;
 // }
 
+.tartapic:hover {
+    background-color: $color-main;
+}
+
+
     .item__sub {
         display: flex;
         justify-content: space-between;

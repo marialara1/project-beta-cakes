@@ -48,7 +48,22 @@
         padding: $space;
         grid-template-columns: repeat(3, 1fr);
     }
-    
+    // product info
+    .product__container {
+        gap: 64px;
+        }
+
+    .product__img {
+        width: 324px;
+    }
+    .product__desc{
+        width: 324px;
+        gap: 38px;
+    }
+    .product__title {
+    width: 324px;
+    }
+
 }
 
 // ------------------------------
@@ -143,6 +158,21 @@
                 height: 400px;
             }
 
+            .review__user {
+
+                  flex-direction: column;
+                  align-items: flex-start;
+              }
+
+              .review__container {
+                padding: 18px;
+              }    
+            .review__stars {
+                width: 60px;
+            }
+            
+   
+
         //  products grid
         .main-grid {
             width: 100%;
@@ -194,5 +224,52 @@
         .container {
             width: 90vw;
         }
+
+
+        // product info
+
+        .product__container {
+            flex-direction: column;
+            align-items: center;
+            gap: 56px;
+            margin-top: 0;
+            }
+
+            .product__desc{
+                width: 100%;
+                padding: $space-max;
+                gap: 16px;
+            }
+            .product__title {
+            width: 100%;
+                .product__name-price {
+                    gap: 12px;
+                }
+            }
+            
+            .product__tags> svg{
+                width: 64px;
+            }
+            
+            
+            .product__tags {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                gap: 24px;
+            }
+            .product__p {
+                text-align: left;
+            }
+
+            .top-buttons {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: $space;
+            }
+
+            
 
 }

@@ -2,28 +2,28 @@
 <section id="loopINST">
     <div class="scrollingLoopINST marginpadding0">
       <div>
-        <img class="igpic marginpadding0" src="resources\images\instagram\1.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\2.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\3.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\4.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\5.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\6.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\7.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\8.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\9.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\10.png" alt="">
+        <img class="igpic marginpadding0" src="resources\images\instagram\1.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\2.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\3.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\4.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\5.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\6.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\7.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\8.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\9.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\10.png" alt="imagen de instagram">
       </div>
       <div>
-        <img class="igpic marginpadding0 " src="resources\images\instagram\1.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\2.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\3.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\4.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\5.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\6.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\7.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\8.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\9.png" alt="">
-        <img class="igpic marginpadding0" src="resources\images\instagram\10.png" alt="">
+        <img class="igpic marginpadding0 " src="resources\images\instagram\1.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\2.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\3.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\4.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\5.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\6.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\7.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\8.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\9.png" alt="imagen de instagram">
+        <img class="igpic marginpadding0" src="resources\images\instagram\10.png" alt="imagen de instagram">
       </div>
     </div>
   </section>

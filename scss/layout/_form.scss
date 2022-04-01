@@ -1,0 +1,59 @@
+
+.form__input {
+    background-color: $color-white;
+    border-radius: 12px;
+    height: 40px;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    padding: $space;
+}
+
+.form__label {
+    width: 100%;
+}
+
+.cptel {
+    width: 100%;
+}
+
+.form__input {
+    width: 100%;
+}
+
+.form__div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.step-title, .stepsvg {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.check-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.checkbox {
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.personalizar::placeholder {
+ align-self: flex-start;
+}
+
+.input-personalizar {
+    height: 100px;
+}

@@ -44,18 +44,22 @@ fetch('../../data.json')
                 if (shouldPaintSugar && shouldPaintGluten) {
                     document.querySelector('main').innerHTML +=
                     `
+                   
                     <div class="items__grid">
-                        <div class="item__container">
-                            <img src="${tarta.img}" alt="" class= "tartapic">
-                            <div class="item__sub">
-                                <div class="product-subtext">
-                                    <p class="item-name"> ${tarta.name}</p>
-                                    <p class="item-price bold">${tarta.price}</p>
+                            <div class="item__container">
+                            <a class="item__link" href="product-info.php">
+                                <img src="${tarta.img}" alt="" class= "tartapic">
+                                </a>
+                                <div class="item__sub">
+                                    <div class="product-subtext">
+                                        <p class="item-name"> ${tarta.name}</p>
+                                        <p class="item-price bold">${tarta.price}</p>
+                                    </div>
+                                    <button class= "add-cart-button small">+</button>
                                 </div>
-                                <button class= "add-cart-button small">+</button>
                             </div>
-                        </div>
                     </div>
+
                     `;
                 }
             })
