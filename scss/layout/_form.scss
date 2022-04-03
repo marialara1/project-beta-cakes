@@ -23,6 +23,7 @@
 
 .form__input {
     width: 100%;
+    padding: $unit;
 }
 
 .form__div {
@@ -36,6 +37,7 @@
     justify-content: center;
     margin-top: 50px;
     text-align: center;
+    white-space: nowrap;
 }
 
 .check-text {
@@ -50,10 +52,58 @@
     margin-bottom: 24px;
 }
 
-.personalizar::placeholder {
- align-self: flex-start;
+textarea {
+    padding: $unit;
+    resize: none;
+    font-family: $dm-sans;
+    color: $color-grey;
+    font-size: 14px;
+  }
+
+  .input-personalizar {
+    height: 150px;
+    margin-bottom: 24px;
+  }
+
+
+//   PAYMENT METHOD
+
+
+.cvc {
+    width: 30%;
+    margin-bottom: 48px;
 }
 
-.input-personalizar {
-    height: 100px;
+.date {
+    color: $color-black;
+}
+
+.tarjeta-title {
+    margin-bottom: 24px;
+}
+
+.thanks-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    text-align: center;
+}
+
+.thankstext {
+    text-align: center;
+    width: 300px;
+}
+
+.thanks-pic {
+    width: 300px;
+    height: 300px;
+}
+
+.thanks__container{
+    border-radius: 10px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
 }

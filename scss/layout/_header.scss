@@ -7,9 +7,6 @@ header {
     // width: 100%;
     // z-index: 4;
 }
-.menu__mobile {
-    display: none;
-}
 
 .header__links {
     width: 100%;
@@ -30,3 +27,114 @@ header {
     }
 }
 
+
+// MENU
+
+body {
+    animation: bugfix infinite 1s;
+    -webkit-animation: bugfix infinite 1s;
+  }
+  
+  @keyframes bugfix { from {padding:0;} to {padding:0;}}
+  @-webkit-keyframes bugfix { from {padding:0;} to {padding:0;}}
+  
+  #overlay-button {
+    padding: 26px 11px;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
+    span {
+        height: 1.5px;
+        width: 35px;
+        border-radius: 2px;
+        background-color: $color-white;
+        position: relative;
+        display: block;
+        transition: all .2s ease-in-out;
+        &:before {
+          top: -7px;
+          right: +5px;
+          visibility: visible;
+        }
+        &:after {
+          top: 7px;
+          right: -5px;
+        }
+        &:before, &:after {
+            height: 1.5px;
+            width: 35px;
+            border-radius: 2px;
+            background-color: $color-black;
+            position: absolute;
+            content: "";
+            transition: all .2s ease-in-out;
+        }
+      }
+    //   &:hover span, &:hover span:before, &:hover span:after {
+    //     background: $color-green;
+    //   }
+  }
+  
+  input[type=checkbox] {
+    display: none;
+    
+    &:checked ~ #overlay {
+      visibility: visible;
+    }
+    
+    &:checked ~ #overlay-button {
+      &:hover span, span{
+        background: transparent;
+      }
+      span {
+        &:before {
+          transform: rotate(45deg) translate(9px, 9px);
+          opacity: 1;
+        }
+        &:after {
+          transform: rotate(-45deg) translate(-7px, -7px);
+        }
+      }
+    }
+  }
+  
+  #overlay {
+    height: 150vh;
+    width: 100vw;
+    background: $color-main;
+    z-index: 2;
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+  left: 0px;
+    &.active {
+      visibility: visible;
+    }
+    ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: auto;
+      margin-top: 50vh;
+      flex: 1;
+      list-style-type: none;
+      li {
+        padding: 1em;
+        a {
+          color: $color-black;
+          text-decoration: none;
+          font-size: 24px;
+          &:hover {
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+
+  
+.menu__mobile {
+    display: none;
+}

@@ -55,7 +55,9 @@ fetch('../../data.json')
                                         <p class="item-name"> ${tarta.name}</p>
                                         <p class="item-price bold">${tarta.price}</p>
                                     </div>
-                                    <button class= "add-cart-button small">+</button>
+                                    <div class= "add-cart-button small">
+                                        <span  class= "add-cart-btn small">+</span>
+                                    </div>
                                 </div>
                             </div>
                     </div>

@@ -1,16 +1,44 @@
 
 <div class="header__links">
     <!-- dropup menu ((hidden in desktop)) -->
-    <a class="menu__mobile" href="">
+    <!-- <a class="menu__mobile" href="">
         <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
             <line x1="17.0535" y1="17.5" x2="34.5001" y2="17.5" stroke="black" stroke-linecap="round"/>
             <line x1="10.5" y1="27.5" x2="27.9466" y2="27.5" stroke="black" stroke-linecap="round"/>
         </svg>
-    </a>
+    </a> -->
+
+
+
+<input type="checkbox" id="overlay-input" />
+<label class="menu__mobile" for="overlay-input" id="overlay-button">
+    <span></span>
+</label>
+  <div id="overlay" class="menu__mobile">
+    <ul class="ul-mobile menu__mobile">
+      <li><a href="\projectbetacakes\php\pages\all_cakes_page.php"> <strong> COMPRAR TARTAS</strong></a></li>
+      <li><a href="\projectbetacakes\php\pages\shipping_page.php">ENVÍOS</a></li>
+      <li><a href="\projectbetacakes\php\pages\conocenos_page.php">CONÓCENOS</a></li>
+      <li><a href="\projectbetacakes\php\pages\help_page.php">FAQ</a></li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     <!-- home/logo -->
     <a href="\projectbetacakes\index.php" alt="home">
-        <img src="_logoSVG.svg" class="vake-logo" alt="vake logo">
+        <img src="<?php echo $pathlogo; ?>/_logoSVG.svg" class="vake-logo" alt="vake logo">
     </a>
         <!-- nav -->
     <nav class="nav-desktop">

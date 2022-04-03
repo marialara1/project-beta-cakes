@@ -23,4 +23,4 @@
     </div>
 </div>
 
-<a class="cta-comprar p-large marginmed cta-purple" href=""> ¿Quieres saber más? </a>
+<a class="cta-comprar p-large marginmed cta-purple" href="./php/pages/conocenos_page.php"> ¿Quieres saber más? </a>

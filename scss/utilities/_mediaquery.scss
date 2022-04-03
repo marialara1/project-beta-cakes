@@ -137,9 +137,15 @@
         .landing {
             flex-direction: column;
 
+            .landing-title {
+                font-weight: bold;
+            }
+
             .video-landing__container {
+                 background: url(../resources/images/landing-images/gifmp4.gif) no-repeat;
+            background-size: cover;
                 width: 100%;
-                height: 300px;
+                height: 250px;
             }
 
             .text-landing__container {
@@ -149,7 +155,9 @@
                 margin-top: 10%;
             }
         }
-
+        .video-landing {
+            display: none;
+        }
         .landing-btn {
             margin-bottom: 80px;
         }
@@ -222,7 +230,7 @@
         .cart__container {
             width: 85%;
             height: 700px;
-            padding: $unit;
+            padding: $space;
         }
 
         .cart__envio {
@@ -235,8 +243,11 @@
         .cart__footer {
             margin-top: 50px;
         }
-
         
+        .cart__item__container{
+            padding-right: $space;
+        }
+
 
         // FAQ
 
@@ -252,12 +263,13 @@
             align-items: center;
             gap: 56px;
             margin-top: 0;
+            padding-top: 0;
             }
 
             .product__desc{
                 width: 100%;
-                padding: $space-max;
-                gap: 16px;
+                padding: $space;
+                gap: 14px;
             }
             .product__title {
             width: 100%;
@@ -281,14 +293,35 @@
                 text-align: left;
             }
 
+            .product-image {
+                width: 300px;
+                height: 300px;
+                margin-bottom: 55px;
+            }
+
+
+            
             .top-buttons {
                 width: 100%;
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
-                padding: $space;
+                // padding: $space;
             }
 
+            .top-btn-svg {
+                width: 32px;
+            }
+
+            // pay
+            .cvc {
+                margin-bottom: 32px;
+            }
+
+            // thanks
+            .step-title {
+                white-space: normal;
+            }
             
 
 }

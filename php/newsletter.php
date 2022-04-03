@@ -9,9 +9,9 @@
 
 <button class="newsletter__button cta-comprar p-large marginmed cursor cta-purple" id="send" href=""> Enviar! </button>
 
-<script>
+<!-- <script>
 const container = document.querySelector(".newsletter__button");
 container.addEventListener("click", (event) => {
   swal ("¡Gracias por suscribirte!") })
-</script>
+</script> -->
 </div>

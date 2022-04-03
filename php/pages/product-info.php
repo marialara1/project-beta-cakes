@@ -1,3 +1,7 @@
+<?php 
+$pathlogo = "../../resources/logo/";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,22 +23,12 @@
             ?>
         </header>
 
-        <div class="top-buttons">
-            <svg onclick="window.history.go(-1); return false;" class="cursor" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M21.4736 9.07354L8.23973 22.7097M8.23973 22.7097L21.4736 35.9436M8.23973 22.7097L36.7434 22.7097" stroke="black" stroke-linecap="round"/>
-            </svg>
 
-            <svg class="cursor" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M31 12.2965L22.5 4M22.5 4L13.9999 12.2965M22.5 4L22.5 27" stroke="black" stroke-linecap="round"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M19.2593 20H14C11.7909 20 10 21.7909 10 24V38C10 40.2091 11.7909 42 14 42H31C33.2091 42 35 40.2091 35 38V24C35 21.7909 33.2091 20 31 20H25.7408V21H31C32.6569 21 34 22.3431 34 24V38C34 39.6569 32.6569 41 31 41H14C12.3431 41 11 39.6569 11 38V24C11 22.3431 12.3431 21 14 21H19.2593V20Z" fill="black"/>
-            </svg>
-
-        </div>
 
 
 <div class="product__container paddings">
         <div class="product__img">
-            <img src="\projectbetacakes\resources\images\_product-images\sugar-cake.png" alt="tarta soft">
+            <img src="\projectbetacakes\resources\images\_product-images\sugar-cake.png" alt="tarta soft"  class="product-image">
             <a class="cta-comprar p-large marginmed" href="\projectbetacakes\php\pages\cart_page.php" alt="ir a la cesta"> Comprar </a>
         </div>
 

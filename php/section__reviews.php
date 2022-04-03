@@ -11,7 +11,7 @@
         <div class="swiper-slide bordersolid swiper-slide1"> 
         <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">María L.</span> 
+              <span  class="review__span bold">María L.</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -29,7 +29,7 @@
         <div class="swiper-slide bordersolid">
         <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">Marta C.</span> 
+              <span  class="review__span bold">Marta C.</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -46,7 +46,7 @@
         <div class="swiper-slide bordersolid">
         <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">Miguel Y.</span> 
+              <span  class="review__span bold">Miguel Y.</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -56,7 +56,7 @@
               </svg>
             </div>
             <p class="review__text">Muy rica un 10 <br>
-              La verdad que estoy muy contento de haberos encontrado! Compré una tarta para celebrar el santo de mi madre y estamos todos encantados con la calidad de los productos!! 10/10!!! Encima es un plus poder pedir por la web, además de que la página es muy sencilla de usar!!
+              La verdad que estoy muy contento de haberos encontrado! Compré una tarta para el santo de mi madre y estamos encantados con la calidad de los productos!! 10/10!!! Encima es un plus poder pedir por la web, la página es muy sencilla de usar!!
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@
           <!--  -->
           <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">Anónimo</span> 
+              <span  class="review__span bold">Anónimo</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -83,7 +83,7 @@
         <div class="swiper-slide bordersolid">
         <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">John M.</span> 
+              <span  class="review__span bold">John M.</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -103,7 +103,7 @@
         <div class="swiper-slide bordersolid">
         <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">Luis F.</span> 
+              <span  class="review__span bold">Luisfe C.</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -123,7 +123,7 @@
         <div class="swiper-slide bordersolid">
         <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">Cris M.</span> 
+              <span  class="review__span bold">Cris M.</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -133,8 +133,8 @@
               </svg>
             </div>
             <p class="review__text">
-              DELICIOSA! <br>
-              El pedido ha llegado muy rápido, el packaging muy bien cuidado y ha llegado todo en perfecto estado. Era para un cumpleaños y les ha encantado. Repetiría!!
+              Repetiría <br>
+              Me ha encantado encontrar esta página porque es muy difícil encontrar tartas veganas que encima tengan opciones sin gluten y además sean tan chulas. La recomiendo 100%
             </p>
           </div>
         </div>
@@ -143,7 +143,7 @@
         <div class="swiper-slide bordersolid">
         <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">Ana P.</span> 
+              <span  class="review__span bold">Ana P.</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -162,7 +162,7 @@
         <div class="swiper-slide bordersolid">
         <div class="review__container">
             <div class="review__user">
-              <span  class="review__span">Alex G.</span> 
+              <span  class="review__span bold">Maude A.</span> 
               <svg class="review__stars" width="70" height="15" viewBox="0 0 70 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.00033 10.7143L10.6053 12.8901L9.64866 8.78926L12.8337 6.0301L8.63949 5.66843L7.00033 1.80676L5.36116 5.66843L1.16699 6.0301L4.34616 8.78926L3.39533 12.8901L7.00033 10.7143Z" fill="#D2BEFF"/>
                         <path d="M21.0003 10.7143L24.6053 12.8901L23.6487 8.78926L26.8337 6.0301L22.6395 5.66843L21.0003 1.80676L19.3612 5.66843L15.167 6.0301L18.3462 8.78926L17.3953 12.8901L21.0003 10.7143Z" fill="#D2BEFF"/>
@@ -172,8 +172,8 @@
               </svg>
             </div>
             <p class="review__text">
-              DELICIOSA! <br>
-              El pedido ha llegado muy rápido, el packaging muy bien cuidado y ha llegado todo en perfecto estado. Era para un cumpleaños y les ha encantado. Repetiría!!
+              Todo genial! <br>
+              Descubrí esta página por instagram, todo el mundo lo estaba compartiendo y quise probar. La tarta me llegó al día siguiente!! Estaba deliciosa, estoy deseando repetir
             </p>
           </div>
         </div>

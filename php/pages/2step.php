@@ -1,3 +1,7 @@
+<?php 
+$pathlogo = "../../resources/logo/";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
-    <title>Cesta · Tramitar pedido</title>
-    <link rel="icon" type="image/x-icon" href="resources\images\_product-images\otaku-cake.png">
+    <title>Checkout (2/3) · VAKE</title>
+    <link rel="icon" type="image/x-icon" href="../../resources/images/_product-images/otaku-cake.png">
 </head>
 <body class="body__cart">
     <!-- loop -->
@@ -46,12 +50,13 @@
                 <h3 class="step-title marginauto">¿Te gustaria personalizar la tarta?</h3>
                 
                 <label class="form__label" for="text">
-                    <input class="bordersolid form__input personalizar  input-personalizar" type="text" id="text" placeholder="Dinos qué quieres escribir en tu tarta">
+                    <!-- <textarea class="bordersolid form__input personalizar  input-personalizar" type="text" id="text" placeholder="Dinos qué quieres escribir en tu tarta"> -->
+                    <textarea class="bordersolid form__input  input-personalizar" name="textarea" rows="10" cols="50">Dinos qué quieres escribir en tu tarta</textarea>
                 </label>
 
             </form>
             <div class="check-text marginauto">
-                <a class="cta-comprar p-large marginmed cta-black" href="2step.php" alt="continuar"> Continuar </a>
+                <a class="cta-comprar p-large marginmed cta-black" href="3step.php" alt="continuar"> Continuar </a>
             </div>
             
         </div>

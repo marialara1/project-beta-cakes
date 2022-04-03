@@ -1,3 +1,7 @@
+<?php 
+$pathlogo = "../../resources/logo/";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/style.css">
-    <title>Cesta</title>
+    <link rel="icon" type="image/x-icon" href="../../resources/images/_product-images/otaku-cake.png">
+    <title>Cesta · VAKE</title>
 </head>
 <body class="body__cart">
     <!-- loop -->
@@ -19,7 +24,17 @@
         ?>
     </header>
 
+
+
         <div class="cart__container marginauto">
+
+        <!-- <div class="top-buttons ">
+            <svg onclick="window.history.go(-1); return false;" class="cursor top-btn-svg" width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.4736 9.07354L8.23973 22.7097M8.23973 22.7097L21.4736 35.9436M8.23973 22.7097L36.7434 22.7097" stroke="black" stroke-linecap="round"/>
+            </svg>
+
+        </div> -->
+
 
             <h2 class="cart__item__container">CESTA</h2>
 

@@ -5,11 +5,17 @@
 
     .video-landing__container {
         // background: url(../resources/images/landing-images/landing-image1.png) no-repeat;
-        background: url(../resources/images/landing-images/landingimg2.png) no-repeat;
-        background-size: cover;
+        // background: url(../resources/images/landing-images/landingimg2.png) no-repeat;
+        // background-size: cover;
         border-right: 1px solid $color-black;
         width: 50%;
         height: 800px;
+        overflow: hidden;
+    }
+
+    .video-landing {
+        width: fit-content;
+
     }
 
     .text-landing__container {

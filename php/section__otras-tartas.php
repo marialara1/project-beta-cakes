@@ -1,10 +1,10 @@
 <h2 class="section__title">
-    Tartas para tal
+    Tartas variadas
 </h2>
 
 <div class= "item-otras">
     <div class= "item_1">
-        <img class= "cake-img-otras bordersolid" src="resources\images\_product-images\flower-cake.png" alt="">
+        <img class= "cake-img-otras bordersolid" src="resources\images\_product-images\cherry-cake.png" alt="">
         <div class= "item-otras-info">
             <span class= "item-name p-large"> <strong>TARTAS SIN GLUTEN</strong> </span>
             <?php
@@ -13,9 +13,9 @@
         </div>
     </div>
     <div class= "item_2">
-        <img class= "cake-img-otras bordersolid" src="resources\images\_product-images\chocolate-cake.png" alt="">
+        <img class= "cake-img-otras bordersolid" src="resources\images\_product-images\pink-cake.png" alt="">
         <div class= "item-otras-info">
-            <span class= "item-name p-large"> <strong>BAJO EN AZÚCAR</strong> </span>
+            <span class= "item-name p-large"> <strong>BAJAS EN AZÚCAR</strong> </span>
             <?php
                 include('php/cta.php');
             ?>

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="icon" type="image/x-icon" href="resources\images\_product-images\otaku-cake.png">
+    <title>Política de Cookies · VAKE</title>
+    <link rel="icon" type="image/x-icon" href="../../resources/images/_product-images/otaku-cake.png">
     <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>

@@ -1,3 +1,10 @@
+<?php 
+$path = "resources/images/instagram/";
+?>
+
+<?php 
+$pathlogo = "resources/logo/";
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,7 +17,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-        <link href="https://api.fontshare.com/css?f[]=clash-grotesk@400&display=swap" rel="stylesheet">
+        <link href="https://api.fontshare.com/css?f[]=clash-grotesk@400,500&display=swap" rel="stylesheet">
 
         <!-- swipper -->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
@@ -102,4 +109,6 @@
 
 <!-- notas:
 flex: 1 se va el elemento al final
+flex: 0 0 50vw;
+margin 0 auto se centra
  -->
