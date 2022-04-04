@@ -10,7 +10,7 @@
 
 
 
-<input type="checkbox" id="overlay-input" />
+<input  class="inputcheck" type="checkbox" id="overlay-input" />
 <label class="menu__mobile" for="overlay-input" id="overlay-button">
     <span></span>
 </label>
@@ -24,6 +24,21 @@
   </div>
 
 
+  <!-- <script>
+
+function disableScroll(){  
+  window.scrollTo(0, 0);
+}
+
+window.addEventListener('scroll', disableScroll);
+window.removeEventListener('scroll', disableScroll); 
+
+const button = document.querySelector('.menu__mobile');
+
+button.addEventListener('click', function disableScroll()) {
+    window.scrollTo(0, 0);
+}
+  </script> -->
 
 
 

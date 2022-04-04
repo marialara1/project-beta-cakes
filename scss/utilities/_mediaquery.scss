@@ -167,6 +167,12 @@
                 flex-direction: column;
                 gap: 16px;
             }
+
+            
+            .rrsslink {
+                margin-left: $unit;
+            }
+
         // newsletter
 
             .newsletter__p {
@@ -229,7 +235,7 @@
 
         .cart__container {
             width: 85%;
-            height: 700px;
+            height: 750px;
             padding: $space;
         }
 
@@ -241,7 +247,7 @@
         }
         
         .cart__footer {
-            margin-top: 50px;
+            display: none;
         }
         
         .cart__item__container{

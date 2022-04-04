@@ -2,10 +2,6 @@
 // logo, nav & cart
 header {
     background-color: $color-white;
-    // position: fixed;
-    // margin-top: auto;
-    // width: 100%;
-    // z-index: 4;
 }
 
 .header__links {
@@ -16,7 +12,6 @@ header {
     display: flex;
     align-items: center;
     flex-direction: row;
-    // justify-content: space-between;
 
     .nav-desktop {
         list-style: none;
@@ -40,7 +35,7 @@ body {
   
   #overlay-button {
     padding: 26px 11px;
-    z-index: 5;
+    z-index: 99;
     cursor: pointer;
     user-select: none;
     span {
@@ -75,8 +70,12 @@ body {
     //   }
   }
   
-  input[type=checkbox] {
+  // input[type=checkbox] {
+  //   display: none;
+
+  .inputcheck {
     display: none;
+    overflow: block;
     
     &:checked ~ #overlay {
       visibility: visible;
@@ -102,13 +101,16 @@ body {
     height: 150vh;
     width: 100vw;
     background: $color-main;
-    z-index: 2;
+    z-index: 98;
     visibility: hidden;
     position: absolute;
     top: 0px;
-  left: 0px;
+    left: 0px;
+    overflow: block;
+    
     &.active {
       visibility: visible;
+      
     }
     ul {
       display: flex;

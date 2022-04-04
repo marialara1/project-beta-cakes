@@ -359,6 +359,7 @@ a {
 .rrsslink {
   width: 24px;
   height: 24px;
+  margin-left: 20px;
 }
 
 .footer__links {
@@ -441,7 +442,7 @@ body {
 }
 #overlay-button {
   padding: 26px 11px;
-  z-index: 5;
+  z-index: 99;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -478,21 +479,22 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-input[type=checkbox] {
+.inputcheck {
   display: none;
+  overflow: block;
 }
-input[type=checkbox]:checked ~ #overlay {
+.inputcheck:checked ~ #overlay {
   visibility: visible;
 }
-input[type=checkbox]:checked ~ #overlay-button:hover span, input[type=checkbox]:checked ~ #overlay-button span {
+.inputcheck:checked ~ #overlay-button:hover span, .inputcheck:checked ~ #overlay-button span {
   background: transparent;
 }
-input[type=checkbox]:checked ~ #overlay-button span:before {
+.inputcheck:checked ~ #overlay-button span:before {
   -webkit-transform: rotate(45deg) translate(9px, 9px);
           transform: rotate(45deg) translate(9px, 9px);
   opacity: 1;
 }
-input[type=checkbox]:checked ~ #overlay-button span:after {
+.inputcheck:checked ~ #overlay-button span:after {
   -webkit-transform: rotate(-45deg) translate(-7px, -7px);
           transform: rotate(-45deg) translate(-7px, -7px);
 }
@@ -501,11 +503,12 @@ input[type=checkbox]:checked ~ #overlay-button span:after {
   height: 150vh;
   width: 100vw;
   background: #D2BEFF;
-  z-index: 2;
+  z-index: 98;
   visibility: hidden;
   position: absolute;
   top: 0px;
   left: 0px;
+  overflow: block;
 }
 #overlay.active {
   visibility: visible;
@@ -832,6 +835,8 @@ textarea {
 
 .body__cart {
   background-color: #D2BEFF;
+  width: 100vw;
+  height: 100%;
 }
 
 .cart__header {
@@ -1423,7 +1428,7 @@ textarea {
 .footer-cc {
   background-color: #D2BEFF;
   width: 100%;
-  padding: 12px;
+  padding: 10px;
 }
 
 .info-main {
@@ -1622,6 +1627,10 @@ textarea {
     gap: 16px;
   }
 
+  .rrsslink {
+    margin-left: 10px;
+  }
+
   .newsletter__p {
     margin-top: 20px !important;
     width: 300px;
@@ -1679,7 +1688,7 @@ textarea {
 
   .cart__container {
     width: 85%;
-    height: 700px;
+    height: 750px;
     padding: 20px;
   }
 
@@ -1692,7 +1701,7 @@ textarea {
   }
 
   .cart__footer {
-    margin-top: 50px;
+    display: none;
   }
 
   .cart__item__container {

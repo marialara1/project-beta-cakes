@@ -33,7 +33,7 @@
 </div>
 
 <div class="container__footer-links">
-    <a class="footer__links" href=""> Ayuda </a>
+    <a class="footer__links" href="/projectbetacakes/php/pages/help_page.php"> Ayuda </a>
     <a class="footer__links" href="/projectbetacakes/php/pages/conocenos_page.php"> Conócenos </a>
     <a class="footer__links" href="/projectbetacakes/php/pages/shipping_page.php"> Envíos y Pagos </a>
     <a class="footer__links" href="/projectbetacakes/php/pages/privacy_page.php"> Política de Privacidad </a>
@@ -45,7 +45,7 @@
 
 <div class="footer-cc bordersolid">
     <span class="footer-cc_text">
-    © 2022 tal
+    ©
     </span>
 
 </div>
