@@ -28,15 +28,15 @@ $pathlogo = "../../resources/logo/";
 
 <div class="product__container paddings">
         <div class="product__img">
-            <img src="\projectbetacakes\resources\images\_product-images\sugar-cake.png" alt="tarta soft"  class="product-image">
+            <img src="\projectbetacakes\resources\images\_product-images\lemon-cake.png" alt="tarta soft"  class="product-image">
             <a class="cta-comprar p-large marginmed" href="\projectbetacakes\php\pages\cart_page.php" alt="ir a la cesta"> Comprar </a>
         </div>
 
         <div class="product__desc">
             <div class="product__title">
                 <div class="product__name-price">
-                    <span class="product__name bold">Tarta Azúcar</span>
-                    <span class="product__price bold">40€</span>
+                    <span class="product__name bold">Tarta de Limón</span>
+                    <span class="product__price bold">35€</span>
                 </div>
                 <?php
                     include('../add-cart.php');
@@ -59,7 +59,7 @@ $pathlogo = "../../resources/logo/";
             </div>
 
             <p class="product__p p-large">
-            Una tarta deliciosa de limón y nata perfecta para una fiesta de cumpleaños o para regalar a. que snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.
+            Una deliciosa tarta de limón y nata, perfecta para una fiesta de cumpleaños o para regalar a quien tú quieras. Libre de productos animales, por lo que no contiene lactosa ni derivados. <br> Esta tarta tampoco contiene gluten, es una tarta fría que no contiene harinas y no ha estado expuesta a una contaminación cruzada.
             </p>
         </div>
 

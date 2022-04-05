@@ -450,7 +450,7 @@ body {
           user-select: none;
 }
 #overlay-button span {
-  height: 1.5px;
+  height: 1px;
   width: 35px;
   border-radius: 2px;
   background-color: #F4EEE0;
@@ -469,7 +469,7 @@ body {
   right: -5px;
 }
 #overlay-button span:before, #overlay-button span:after {
-  height: 1.5px;
+  height: 1px;
   width: 35px;
   border-radius: 2px;
   background-color: #232323;
@@ -1189,6 +1189,19 @@ textarea {
   padding-bottom: 100px;
 }
 
+.section__vegan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .section__vegan-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1211,6 +1224,7 @@ textarea {
 
 .illustration-vegan {
   height: 130px;
+  margin-bottom: 24px;
 }
 
 .landing {
@@ -1481,6 +1495,7 @@ textarea {
   }
 
   .section__vegan {
+    display: block;
     grid-gap: 100px;
     -ms-grid-columns: 1fr 100px 1fr;
     grid-template-columns: repeat(2, 1fr);

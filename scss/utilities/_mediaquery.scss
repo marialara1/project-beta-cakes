@@ -18,9 +18,15 @@
         }
     // home- vegan
     .section__vegan {
+        display: block;
         grid-gap: 100px;
         grid-template-columns: repeat(2, 1fr);
     }
+    // .section__vegan {
+    //     display: block;
+    //     flex-direction: row;
+    //     align-items:flex-start;
+    // }
 
     // -- buttons --
     .cta-comprar {
