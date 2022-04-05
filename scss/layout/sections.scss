@@ -1,10 +1,11 @@
-// ----- HOME- SECTIONS
-// -- lo más vendido --
+// ---------- HOME- SECTIONS ----------
+
+// ----- SECTION LO MÁS VENDIDO
 
 // sección lo más vendido
-.section__vendido {
+.section__home {
     width: 100%;
-    height: 100%;
+    // height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +41,7 @@
 }
 
 
-// section-otras
+// ----- SECTION OTRAS TARTAS
 .item-otras {
     display: flex;
     flex-direction: row;
@@ -48,6 +49,8 @@
     justify-content: center;
     gap: 100px;
 }
+
+
 .cake-img-otras {
     width: 500px;
 }
@@ -62,3 +65,49 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+// ----- SECTION INSTAGRAM
+.section__instagram-hashtag {
+    margin-right: auto;
+}
+
+.igpic {
+    width: 300px;
+    height: 300px;
+}
+
+.conocenos-slider {
+    padding-bottom: 100px;
+}
+
+// ----- SECTION VEGAN
+// (grid) 
+
+.section__vegan {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+}
+
+.section__vegan-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.section__vegan-p {
+    text-align: center;
+    width: 200px;
+}
+
+.illustration-vegan {
+    height: 130px;
+    margin-bottom: 24px;
+}
+
+
+
+// 

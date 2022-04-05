@@ -1,1 +1,1 @@
-<a class="cta-comprar p-large marginmed" href=""> Comprar </a>
+<a class="cta-comprar p-large marginmed" href="\projectbetacakes\php\pages\all_cakes_page.php" alt="todas las tartas"> Comprar </a>

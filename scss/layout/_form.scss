@@ -1,0 +1,109 @@
+
+.form__input {
+    background-color: $color-white;
+    border-radius: 12px;
+    height: 40px;
+}
+
+.form__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    padding: $space;
+}
+
+.form__label {
+    width: 100%;
+}
+
+.cptel {
+    width: 100%;
+}
+
+.form__input {
+    width: 100%;
+    padding: $unit;
+}
+
+.form__div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.step-title, .stepsvg {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.check-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.checkbox {
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+textarea {
+    padding: $unit;
+    resize: none;
+    font-family: $dm-sans;
+    color: $color-grey;
+    font-size: 14px;
+  }
+
+  .input-personalizar {
+    height: 150px;
+    margin-bottom: 24px;
+  }
+
+
+//   PAYMENT METHOD
+
+
+.cvc {
+    width: 30%;
+    margin-bottom: 48px;
+}
+
+.date {
+    color: $color-black;
+}
+
+.tarjeta-title {
+    margin-bottom: 24px;
+}
+
+.thanks-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    text-align: center;
+}
+
+.thankstext {
+    text-align: center;
+    width: 300px;
+}
+
+.thanks-pic {
+    width: 300px;
+    height: 300px;
+}
+
+.thanks__container{
+    border-radius: 10px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}

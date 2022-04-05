@@ -1,119 +1,132 @@
 [
     {
-        "name": "Tarta de Cumpleaños",
-        "price": 30,
-        "Gluten": true,
-        "sugar": true
+        "name": "Tarta de Cumple",
+        "img": "../../resources/images/_product-images/bday-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 30
+
+
     },
     {
         "name": "Tarta de Ositos",
+        "img": "../../resources/images/_product-images/bear-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
         "price": 45,
-        "Gluten": true,
-        "sugar": true
+        "AZUCAR": true
     },
     {
         "name": "Tarta Azul",
-        "price": 35,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/blue-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 35
     },
     {
         "name": "Tarta Cherry",
-        "price": 40,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/cherry-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 40
     },
     {
-        "name": "Tarta de Chocolate",
-        "price": 35,
-        "Gluten": true,
-        "sugar": true
+        "name": "Tarta Choco",
+        "img": "../../resources/images/_product-images/chocolate-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 35
     },
     {
         "name": "Tarta Cute",
-        "price": 50,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/cute-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 50
     },
     {
         "name": "Tarta Flor",
+        "img": "../../resources/images/_product-images/flower-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
         "price": 45,
-        "Gluten": true,
-        "sugar": false
+        "AZUCAR": true
     },
     {
         "name": "Tarta Corazón",
+        "img": "../../resources/images/_product-images/heart-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
         "price": 35,
-        "Gluten": false
+        "GLUTEN": true
     },
     {
         "name": "Tarta Kitty",
+        "img": "../../resources/images/_product-images/kitty-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
         "price": 40,
-        "Gluten": false
+        "GLUTEN": true
     },
     {
         "name": "Tarta de Limón",
+        "img": "../../resources/images/_product-images/lemon-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
         "price": 35,
-        "Gluten": true,
-        "sugar": true
+        "GLUTEN": true,
+        "AZUCAR": true
     },
     {
         "name": "Tarta Loving",
-        "price": 50,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/loving-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 50
     },
     {
         "name": "Tarta Nice",
-        "price": 40,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/nice-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 40
     },
     {
         "name": "Tarta Otaku",
+        "img": "../../resources/images/_product-images/otaku-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
         "price": 35,
-        "Gluten": false
+        "GLUTEN": true
     },
     {
         "name": "Tarta Picnic",
-        "price": 40,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/picnic-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 40
     },
     {
         "name": "Tarta Rosa",
-        "price": 40,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/pink-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 40
     },
     {
         "name": "Tarta Princesa",
-        "price": 40,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/princess-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 40
     },
     {
         "name": "Tarta Red Velvet",
-        "price": 40,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/redvelvet-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 40
     },
     {
         "name": "Tarta Soft",
-        "price": 35,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/soft-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 35
     },
     {
         "name": "Tarta Ardilla",
+        "img": "../../resources/images/_product-images/squirrel-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
         "price": 40,
-        "Gluten": true,
-        "sugar": false
+        "AZUCAR": true
     },
     {
         "name": "Tarta Azúcar",
-        "price": 40,
-        "Gluten": true,
-        "sugar": true
+        "img": "../../resources/images/_product-images/sugar-cake.png",
+        "description": "Sesame snaps halvah biscuit sugar plum chocolate cake sugar plum powder. Muffin candy liquorice lemon drops wafer cake lemon drops shortbread chocolate bar. Lemon drops jelly beans brownie macaroon jujubes danish wafer liquorice dragée. Tootsie roll jelly beans danish biscuit wafer bear claw.",
+        "price": 40
     }
 ]

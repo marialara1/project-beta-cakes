@@ -21,6 +21,11 @@ body {
 
 
 // CLASES
+
+button {
+    border: none;
+}
+
 .cursor {
     cursor: pointer;
 }
@@ -35,4 +40,29 @@ body {
     padding-bottom: 100px;
 }
 
+.marginauto {
+    margin:auto
+}
 
+.marginpadding0 {
+    margin: 0;
+    padding: 0;
+}
+
+.section__title {
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.prueba {
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgsmall {
+width: 70px;
+}
+
+:root {
+    --swiper-theme-color: #000000!important;
+}

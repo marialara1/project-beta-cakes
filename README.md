@@ -21,7 +21,7 @@ El proyecto se ha construido con los siguientes programas:
   - <a href="https://www.adobe.com/products/illustrator.html">Illustrator</a>: diseño de ilustraciones.
 - Para el desarrollo:
   - <a href="https://code.visualstudio.com/">Visual Studio Code</a>: editor de código fuente.
-  - <a href="https://prepros.io/">Prepos</a>: compilador de archivos.
+  - <a href="https://prepros.io/">Prepros</a>: compilador de archivos.
 
 ## **Nomenclatura**
 
@@ -84,14 +84,23 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
     - _buttons.scss
     - _links.scss
     - _typographyhtml.scss
+    - _faq.scss
+    - _icons.scss
 
   - layout/
+    - cakes.scss
+    - _cart.scss
+    - _footer.scss
+    - _info-pages.scss
+    - _landing.scss
+    - _loop.scss
     - _main.scss
     - _header.scss
     - _cards-reviews.scss
     - _newsletter.scss
     - _navigation.scss
     - _footer.scss
+    - _sections.scss
 
   - site/
     - _site.scss
@@ -101,15 +110,14 @@ Los archivos scss son los encargados de aportar los estilos necesarios a los ele
 
   - utilities/
     - _functions.scss
+    - _filterjs.scss
     - _mixins.scss
+    - _mediaquery.scss
 
   - variables/
     - _color.scss
     - _spacing.scss
     - _typography.scss
-
-
-
 
 
 
@@ -132,7 +140,12 @@ Las tarjetas tendrán 4 tipos de medidas S, M , L y XL:
 ** espacios:
 * 
 
-- $space-unit: 6px;
+$small-unit:5px;
+$unit: 10px;
+$space: $unit * 2;
+$space-max: $unit * 5;
+$space--medium: $space * 1.5;
+$padding: $unit;
 
 #### **Color**
 
@@ -149,10 +162,10 @@ La paleta de colores a utilizar en este proyecto estará declarada de la siguien
 
 #### **Fuentes**
 
-En cuanto a las fuentes, se han elegido estás dos. Mattone se empleará para títulos y subtítulos. En cuanto a DM Sans se usará para el cuerpo del documento y títulos secundarios. De la misma manera se definirá el tamaño de fuente tanto de títulos como del cuerpo en función de la resolución de la pantalla.
+En cuanto a las fuentes, se han elegido estás dos. Clash Grotesk se empleará para títulos y subtítulos. En cuanto a DM Sans se usará para el cuerpo del documento y títulos secundarios. De la misma manera se definirá el tamaño de fuente tanto de títulos como del cuerpo en función de la resolución de la pantalla.
 
 - $font-family-sec: 'DM Sans', sans-serif;
-- $font-family-main: 'Mattone', sans-serif;
+- $font-family-main: 'Clash Grotesk', sans-serif;
 
 
 ### **Recursos multimedia**
@@ -176,38 +189,43 @@ se programa como si fuese un archivo HTML, el código HTML va fuera de las etiqu
 ### **Estructura del repositorio php/**
 
   - php/
-    - card/
-      - button_CARD.php
-      - CARD.php
-      - text_CARD.php
-      - title_CARD.php
-    - header/
-      - description_HEADER.php
-      - HEADER.php
-      - logo_HEADER.php
-    - bottom_menu.php
-    - pagination.php
-    - search.php
+    - pages/
+      - 1step.php
+      - 2step.php
+      - 2step.php
+      - all_cakes_page.php
+      - cart.php
+      - conocenos_page.php
+      - contact.php
+      - cookies.php
+      - help.php
+      - privacy-page.php
+      - product-info.php
+      - shipping_page.php
+      - thanks_page.php
+    
+    - 404.php
+    - add-cart.php
+    - cta.php
+    - footer.php
+    - header.php
+    - landing.php
+    - newsletter.php
+    - section__instagram.php
+    - section__otras-tartas.php
+    - section__reviews.php
+    - section__vegan.php
 - index.php
 
 ### **Explicación de estructura**
 
-- php/ -> Carpeta general que contiene todos los archivos de php (Index.php el cual es el código principal se encuentra fuera de dicha carpeta).
+- php/ -> Carpeta general que contiene todos los archivos de php. En ella se encuentran las secciones de la panding page y otros elementos reutilizables como el header, footer o swippers. (Index.php el cual es el código principal se encuentra fuera de dicha carpeta).
 
-  - card/ -> Carpeta que contiene los componentes que forman la "card" principal.
-    - Button_CARD.php ->  Código del botón que se encuentra dentro de las cartas.
-    - CARD.PHP -> Aquí se linkeaerán todas las variables de esta carpeta "card" y se dará formato.
-    - text_CARD.PHP.js -> Textos del elemento "CARD".
-    - title_CARD.js -> Titulo dentro del elemento "CARD".
+  - pages/ -> Carpeta que contiene los elementos externos a la home page.
+    - (page name)-page.php ->  Páginas que están en el footer o en el header.
+    - (1, 2, 3)step -> Forman parte de la cesta.
+    - all_cakes_page -> Aquí estarán todos los productos de la web.
 
-  -header/ -> Encabezado general de la página formado por los elementos que se encuentran dentro de la carpeta.
-    - description_HEADER.php -> Breve descripción de nuestra web situado en el "header".
-    - HEADER.php -> Aquí se linkeaerán todas las variables de esta carpeta "header" y se dará formato.
-    - logo_HEADER.php -> Se define el logo de la web.
-
-  - bottom_menu.php -> Se define el menú situado en nuestro pie de página y se le otorga estilos.
-  - pagination.php -> Se define la paginación de nuestra web.
-  - search -> Se define la barra de búsqueda situada en la parte superior de la misma.
 
 - index.php -> Aquí se linkearan todos los componentes anteriormente nombrados formando así nuestra web.
 
@@ -216,8 +234,3 @@ se programa como si fuese un archivo HTML, el código HTML va fuera de las etiqu
 
     https://www.youtube.com/watch?v=p8Ozqop6O3s 
 
-
-
-    <strong>
-    alt palabras clave
-    verbos ver descubre mira 

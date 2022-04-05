@@ -1,0 +1,56 @@
+.item__container {
+width: 165px;
+margin: auto;
+padding-bottom: $space-max;
+
+// .tartapic {
+//     width: 165px;
+//     height: 165px;
+// }
+
+.tartapic:hover {
+    background-color: $color-main;
+}
+
+
+    .item__sub {
+        display: flex;
+        justify-content: space-between;
+
+        width: 100%;
+
+        .product-subtext {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 50%;
+            margin: 0;
+            padding: 0;
+
+            .item-name {
+                width:min-content;
+                margin: 0;
+                padding: 0;
+                white-space:nowrap;
+            
+            }
+
+            .item-price {
+                width: min-content;
+                margin: 0;
+                padding: 0;            
+            }
+        }
+    }
+
+}
+
+
+// filter container
+
+.filter__container {
+    margin-left: $space;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

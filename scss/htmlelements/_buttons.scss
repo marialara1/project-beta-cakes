@@ -3,14 +3,17 @@
 // --- CTA-COMPRAR
 
 .cta-comprar {
-    background-color: $color-green;
+    background-color: $color-cta;
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: bold;
     border-radius: 40px;
     height: 55px;
     padding: 30px;
     margin: 0;
+    width: min-content;
+    white-space: nowrap;
     // padding-top: 10px;
 }
 
@@ -22,22 +25,77 @@
 
 .add-cart-button {
     background-color: $color-black;
-    border: none;
-    color: $color-white;
+    
     border-radius: 50%;
     height: 36px;
     width: 36px;
-    font-weight: bold;
-    font-size: 40px;
 
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: auto;
+    margin-left: auto;
     padding: auto;
+    z-index: 6;
 }
 
 .add-cart-button:hover {
-    background-color: $color-green;
+    background-color: $color-cta;
     color: $color-black;
     cursor: pointer;
 }
+
+.add-cart-btn {
+    background-color: none;
+    color: $color-white;
+    font-weight: bold;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    // padding: 0;
+    margin: 0 auto;
+    height: 36px;
+    width: 36px;
+    z-index: 6;
+}
+
+.cta-purple {
+    background-color: $color-main;
+}
+
+// filtros
+.GLUTEN, .AZUCAR {
+    background-color: $color-main;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: $unit;
+    border-radius: 40px;
+    height: 44px;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.small {
+    height: 22px;
+    width: 22px;
+    font-size: 22px;
+}
+
+
+.cta-black {
+    background-color: $color-black;
+    color: $color-white;
+    font-weight: $medium;
+}
+
+.cta-black:hover {
+    background-color:  $color-purple;
+    color:$color-black;
+}
+

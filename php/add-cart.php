@@ -1,1 +1,3 @@
-<button class= "add-cart-button">+</button>
+<div class= "add-cart-button">
+    <span  class= "add-cart-btn">+</span>
+</div>

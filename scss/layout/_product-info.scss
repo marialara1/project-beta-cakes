@@ -1,0 +1,51 @@
+.top-buttons {
+    display: none;
+}
+
+.product__container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 150px;
+}
+
+.product__img {
+    width: 424px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product__desc{
+    display: flex;
+    flex-direction: column;
+    width: 424px;
+    gap: 48px;
+}
+.product__title {
+display: flex;
+flex-direction: row;
+width: 424px;
+    .product__name-price {
+        display: flex;
+        flex-direction: column;
+        font-family: $main-font;
+        font-size: 24px;
+        gap: 18px;
+    }
+}
+
+.product__tags> svg{
+    fill: $color-main;
+    width: 56px;
+}
+
+
+.product__tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 24px;
+}
+.product__p {
+    text-align: right;
+}
